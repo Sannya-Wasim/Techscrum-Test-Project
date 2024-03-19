@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 import ActionBar from "./components/ActionBar";
 import Title from "./components/Title";
 import PostImage from "./components/PostImage";
+import Comments from "./components/Comments/Comments";
 
 const App = () => {
   return (
@@ -12,23 +13,24 @@ const App = () => {
         <Title />
         {/* Post content */}
         <PostImage />
-        {/* Action buttons */}
-        {/* <ActionBar /> */}
+
         {/* Liked users */}
-        <View style={styles.likedUsers}>
+        {/* <View style={styles.likedUsers}>
           <Image
-            source={{ uri: "https://via.placeholder.com/50" }}
+            source={require("./assets/userImage.png")}
             style={styles.likedUserImage}
-          />
+          /> */}
+          <Comments/>
           {/* Add more images for other liked users */}
         </View>
-        {/* Comment box */}
-        <View style={styles.commentBox}>
-          <Text>Add your comment...</Text>
-          {/* Add comment submission button */}
+        {/* Post Caption */}
+        <View style={{ marginBottom: 10 }}>
+          <Text>
+            Enjoyed the day with the family 😘😍 @Adam_Mohamed & @Haya_Mohamed
+            ...More
+          </Text>
         </View>
       </View>
-    </View>
   );
 };
 
@@ -37,14 +39,13 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor : '#ccc'
+    backgroundColor: "#ccc",
   },
   postCard: {
     width: "90%",
     padding: 20,
     borderRadius: 20,
     backgroundColor: "#f0f0f0",
-
   },
   caption: {
     marginBottom: 10,
@@ -90,6 +91,7 @@ const styles = StyleSheet.create({
     height: 30,
     borderRadius: 15,
     marginRight: 5,
+    marginVertical: 5,
   },
   commentBox: {
     borderWidth: 1,
