@@ -2,112 +2,112 @@ export const liked_users = [
     {
       "index": 1,
       "name": "User 1",
-      "image": "../assets/userImage1.png"
+      "image": "../../assets/userImage01.png"
     },
     {
       "index": 2,
       "name": "User 2",
-      "image": "../assets/userImage2.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 3,
       "name": "User 3",
-      "image": "../assets/userImage3.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 4,
       "name": "User 4",
-      "image": "../assets/userImage4.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 5,
       "name": "User 5",
-      "image": "../assets/userImage5.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 6,
       "name": "User 6",
-      "image": "../assets/userImage6.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 7,
       "name": "User 7",
-      "image": "../assets/userImage7.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 8,
       "name": "User 8",
-      "image": "../assets/userImage8.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 9,
       "name": "User 9",
-      "image": "../assets/userImage9.png"
+      "image": "../assets/userImag01.png"
     },
     {
       "index": 10,
       "name": "User 10",
-      "image": "../assets/userImage10.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 11,
       "name": "User 11",
-      "image": "../assets/userImage11.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 12,
       "name": "User 12",
-      "image": "../assets/userImage12.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 13,
       "name": "User 13",
-      "image": "../assets/userImage13.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 14,
       "name": "User 14",
-      "image": "../assets/userImage14.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 15,
       "name": "User 15",
-      "image": "../assets/userImage15.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 16,
       "name": "User 16",
-      "image": "../assets/userImage16.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 17,
       "name": "User 17",
-      "image": "../assets/userImage17.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 18,
       "name": "User 18",
-      "image": "../assets/userImage18.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 19,
       "name": "User 19",
-      "image": "../assets/userImage19.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 20,
       "name": "User 20",
-      "image": "../assets/userImage20.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 21,
       "name": "User 21",
-      "image": "../assets/userImage21.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 22,
       "name": "User 22",
-      "image": "../assets/userImage22.png"
+      "image": "../assets/userImage01.png"
     },
     {
       "index": 23,
