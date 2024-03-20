@@ -30,7 +30,7 @@ const Comments = () => {
               style={styles.gradient} // Adjust as needed
             >
               <Text
-                style={{ fontSize: 9, color: "white", fontWeight: "semi-bold" }}
+                style={{ fontSize: 9, color: "white", fontWeight: 600 }}
               >{`${rest_users}+`}</Text>
             </LinearGradient>
           </View>
