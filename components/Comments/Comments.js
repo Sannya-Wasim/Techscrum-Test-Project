@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, StyleSheet, Image, TouchableOpacity, FlatList } from "react-native";
 import { liked_users } from "./liked_users";
 import { LinearGradient } from "expo-linear-gradient";
 import { post_comments } from "./post_comments";
@@ -8,6 +8,14 @@ import CommentsBox from './CommentsBox';
 const Comments = () => {
   const first_five_users = liked_users.slice(0, 4);
   const rest_users = liked_users.length - 5;
+
+  const renderCommentsBox = ({ item }) => {
+    return <CommentsBox comment={item} />;
+  };
+
+  const keyExtractor = (item, index) => {
+    return index.toString();
+  };
 
   return (
     <View style={styles.container}>
@@ -53,11 +61,12 @@ const Comments = () => {
         >{`View all ${post_comments.length} comments`}</Text>
       </TouchableOpacity>
       {/* Comments Box */}
-      <ScrollView style={styles.scrollView}>
-        {post_comments.map((comment, index) => (
-          <CommentsBox key={index} comment={comment}/>
-        ))}
-      </ScrollView>
+      <FlatList
+        data={post_comments}
+        renderItem={renderCommentsBox}
+        keyExtractor={keyExtractor}
+        style={styles.flatList}
+      />
     </View>
   );
 };
@@ -96,7 +105,7 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     marginLeft: -15,
   },
-  scrollView: {
+  flatList: {
     marginVertical: 6,
   },
 });

@@ -18,20 +18,19 @@ const ActionBar = () => {
   const [likeColor, setLikeColor] = useState('white');
   
   const [commented, setCommented] = useState(false);
-  const [commentCount, setCommentCount] = useState(0);
+  const [commentCount, setCommentCount] = useState(18);
   const [commentColor, setCommentColor] = useState('white');
   
 
   const [saved, setSaved] = useState(false);
-  const [savedCount, setSavedCount] = useState(0);
+  const [savedCount, setSavedCount] = useState(7);
   const [savedColor, setSavedColor] = useState('white');
 
   const [shared, setShared] = useState(false);
-  const [sharedCount, setSharedCount] = useState(0);
   const [sharedColor, setSharedColor] = useState('white');
 
   const [reposted, setReposted] = useState(false);
-  const [repostedCount, setRepostedCount] = useState(0);
+  const [repostedCount, setRepostedCount] = useState(3);
   const [repostedColor, setRepostedColor] = useState('white');
 
   const handleLike = () => {
@@ -54,7 +53,6 @@ const ActionBar = () => {
 
   const handleShare = () => {
     setShared(!shared);
-    setSharedCount(shared ? sharedCount - 1 : sharedCount + 1);
     setSharedColor(shared ? 'white' : '#FE6587');
   };
 
@@ -106,11 +104,10 @@ const ActionBar = () => {
         <View style={styles.actionButton}>
           <FontAwesomeIcon
             icon={faShare}
-            size={20}
+            size={22}
             color = {sharedColor}
             style={{ marginHorizontal: 2 }}
           />
-          <Text style={styles.actionCount}>{sharedCount}</Text>
         </View>
       </TouchableOpacity>
       {/* Repost */}
