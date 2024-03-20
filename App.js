@@ -23,13 +23,7 @@ const App = () => {
           <Comments/>
           {/* Add more images for other liked users */}
         </View>
-        {/* Post Caption */}
-        <View style={{ marginBottom: 10 }}>
-          <Text>
-            Enjoyed the day with the family 😘😍 @Adam_Mohamed & @Haya_Mohamed
-            ...More
-          </Text>
-        </View>
+        
       </View>
   );
 };
@@ -38,7 +32,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "start",
     backgroundColor: "#ccc",
   },
   postCard: {
@@ -46,6 +40,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 20,
     backgroundColor: "#f0f0f0",
+    marginVertical : 20
   },
   caption: {
     marginBottom: 10,

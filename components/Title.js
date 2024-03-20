@@ -23,10 +23,12 @@ const Title = () => {
               flexDirection: "row",
             }}
           >
-            <Text style={{ marginHorizontal: 8, fontWeight : 'bold' }}>Mohammad Mostafa</Text>
+            <Text style={{ marginHorizontal: 8, fontWeight: "bold" }}>
+              Mohammad Mostafa
+            </Text>
             {/* <Image source={require("./assets/dotsIcon.png")} /> */}
           </View>
-
+          {/* Buttons */}
           <View
             style={{
               flexDirection: "row",
@@ -55,7 +57,10 @@ const Title = () => {
           </View>
         </View>
       </View>
-      <Image source={require("../assets/dotsIcon.png")} style={{marginTop : -25, marginHorizontal : 4}} />
+      <Image
+        source={require("../assets/dotsIcon.png")}
+        style={{ marginTop: -25, marginHorizontal: 4 }}
+      />
     </View>
   );
 };
@@ -65,14 +70,14 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom : 14
+    marginBottom: 14,
   },
   gradient: {
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
     paddingHorizontal: 4,
-    margin : 2
+    margin: 2,
   },
   labels: {
     color: "white",

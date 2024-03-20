@@ -198,6 +198,11 @@ export const liked_users = [
       "index": 40,
       "name": "User 40",
       "image": "../assets/userImage40.png"
+    },
+    {
+      "index": 41,
+      "name": "User 41",
+      "image": "../assets/userImage40.png"
     }
   ]
   
