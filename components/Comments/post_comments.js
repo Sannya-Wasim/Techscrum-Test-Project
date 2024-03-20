@@ -62,5 +62,89 @@ export const post_comments = [
         comment : "Awesome 📚👩🏼‍🎓💪🏼",
         avatar : '../../assets/userImage.png.png'
     },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Lovely 😘😍 I've enjoyed the day too with @Haya & @Battamostafffa",
+        avatar : '../../assets/userImage.png.png',
+    },
+    {
+        name : 'Adam Mohamed',
+        duration : '14 Hours Ago',
+        comment : "Awesome 📚👩🏼‍🎓💪🏼",
+        avatar : '../../assets/userImage.png.png'
+    },
 
 ]
